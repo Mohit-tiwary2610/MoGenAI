@@ -1,0 +1,574 @@
+{
+  "8f5f6e94": {
+    "file_id": "8f5f6e94",
+    "filename": "incident_reports.csv",
+    "chars": 1841,
+    "chunks": 1,
+    "rows": 19,
+    "summary": {
+      "headline": "Data from incident_reports.csv loaded successfully",
+      "key_metrics": [
+        {
+          "label": "Records",
+          "value": "20",
+          "trend": "neutral"
+        }
+      ],
+      "top_insight": "Upload complete. Ask questions to discover insights.",
+      "risk": "Insufficient data for automated risk analysis.",
+      "suggested_questions": [
+        "What are the key trends in this data?",
+        "Which category has the highest value?",
+        "What is the overall performance summary?"
+      ]
+    },
+    "charts": []
+  },
+  "6aa8b596": {
+    "file_id": "6aa8b596",
+    "filename": "MoGenAI_Test_Sales.csv",
+    "chars": 1815,
+    "chunks": 1,
+    "rows": 25,
+    "summary": {
+      "headline": "Data from MoGenAI_Test_Sales.csv loaded successfully",
+      "key_metrics": [
+        {
+          "label": "Records",
+          "value": "26",
+          "trend": "neutral"
+        }
+      ],
+      "top_insight": "Upload complete. Ask questions to discover insights.",
+      "risk": "Insufficient data for automated risk analysis.",
+      "suggested_questions": [
+        "What are the key trends in this data?",
+        "Which category has the highest value?",
+        "What is the overall performance summary?"
+      ]
+    },
+    "charts": []
+  },
+  "a71e084d": {
+    "file_id": "a71e084d",
+    "filename": "MoGenAI_Test_Sales.csv",
+    "chars": 1815,
+    "chunks": 1,
+    "rows": 25,
+    "summary": {
+      "headline": "Sales revenue increased by 23% from January to May 2026",
+      "key_metrics": [
+        {
+          "label": "Total Revenue",
+          "value": "3,431,000",
+          "trend": "up"
+        },
+        {
+          "label": "Units Sold",
+          "value": "2,346",
+          "trend": "up"
+        },
+        {
+          "label": "Customer Rating",
+          "value": "4.5",
+          "trend": "neutral"
+        },
+        {
+          "label": "Return Rate",
+          "value": "4.5%",
+          "trend": "down"
+        }
+      ],
+      "top_insight": "The SmartWatch Pro and Kurta Set Premium are the top-selling products, accounting for 55% of total revenue",
+      "risk": "Decrease in customer rating for certain products, such as Protein Powder, may impact future sales",
+      "suggested_questions": [
+        "What are the key factors driving the increase in sales revenue?",
+        "How can we improve customer satisfaction and reduce return rates for certain products?",
+        "What opportunities exist to expand our product offerings and increase market share?"
+      ]
+    },
+    "charts": [
+      {
+        "type": "bar",
+        "title": "Monthly Revenue of SmartWatch Pro",
+        "labels": [
+          "Jan 2026",
+          "Feb 2026",
+          "Mar 2026",
+          "Apr 2026",
+          "May 2026"
+        ],
+        "values": [
+          485000,
+          512000,
+          390000,
+          521000,
+          598000
+        ],
+        "color": "6366f1"
+      },
+      {
+        "type": "line",
+        "title": "Units Sold of Kurta Set Premium Over Time",
+        "labels": [
+          "Jan 2026",
+          "Feb 2026",
+          "Mar 2026",
+          "Apr 2026",
+          "May 2026"
+        ],
+        "values": [
+          210,
+          237,
+          194,
+          264,
+          299
+        ],
+        "color": "ff69b4"
+      },
+      {
+        "type": "pie",
+        "title": "Revenue Distribution of Products in May 2026",
+        "labels": [
+          "SmartWatch Pro",
+          "Kurta Set Premium",
+          "Rice Cooker Delux",
+          "Laptop Stand",
+          "Protein Powder"
+        ],
+        "values": [
+          598000,
+          187000,
+          134000,
+          74000,
+          92000
+        ],
+        "color": "f1c232"
+      }
+    ]
+  },
+  "c4efd8ee": {
+    "file_id": "c4efd8ee",
+    "filename": "MoGenAI_Test_Sales.csv",
+    "chars": 1815,
+    "chunks": 1,
+    "rows": 25,
+    "summary": {
+      "headline": "Sales revenue increased by 23% from January to May 2026",
+      "key_metrics": [
+        {
+          "label": "Total Revenue",
+          "value": "3,431,000",
+          "trend": "up"
+        },
+        {
+          "label": "Units Sold",
+          "value": "2,346",
+          "trend": "up"
+        },
+        {
+          "label": "Customer Rating",
+          "value": "4.5",
+          "trend": "neutral"
+        },
+        {
+          "label": "Return Rate",
+          "value": "5.1%",
+          "trend": "down"
+        }
+      ],
+      "top_insight": "The SmartWatch Pro and Kurta Set Premium are the top-selling products, accounting for 55% of total revenue",
+      "risk": "The Rice Cooker Delux has a high return rate, which may impact customer satisfaction and loyalty",
+      "suggested_questions": [
+        "What are the key factors driving the increase in sales revenue?",
+        "How can we improve the customer rating for the Rice Cooker Delux?",
+        "What are the opportunities to expand the product portfolio and increase market share?"
+      ]
+    },
+    "charts": [
+      {
+        "type": "bar",
+        "title": "Monthly Revenue by Product",
+        "labels": [
+          "Jan 2026",
+          "Feb 2026",
+          "Mar 2026",
+          "Apr 2026",
+          "May 2026"
+        ],
+        "values": [
+          485000,
+          512000,
+          390000,
+          521000,
+          598000
+        ],
+        "color": "6366f1"
+      },
+      {
+        "type": "line",
+        "title": "Units Sold of Kurta Set Premium Over Time",
+        "labels": [
+          "Jan 2026",
+          "Feb 2026",
+          "Mar 2026",
+          "Apr 2026",
+          "May 2026"
+        ],
+        "values": [
+          210,
+          237,
+          194,
+          264,
+          299
+        ],
+        "color": "ff69b4"
+      },
+      {
+        "type": "pie",
+        "title": "Revenue Share by Category in May 2026",
+        "labels": [
+          "Electronics",
+          "Apparel",
+          "Appliances",
+          "Accessories",
+          "Health"
+        ],
+        "values": [
+          598000,
+          187000,
+          134000,
+          74000,
+          92000
+        ],
+        "color": "f1c232"
+      }
+    ]
+  },
+  "12f2f068": {
+    "file_id": "12f2f068",
+    "filename": "MoGenAI_Test_Sales.csv",
+    "chars": 1815,
+    "chunks": 1,
+    "rows": 25,
+    "summary": {
+      "headline": "Sales revenue increased by 23% from January to May 2026",
+      "key_metrics": [
+        {
+          "label": "Total Revenue",
+          "value": "2,431,000",
+          "trend": "up"
+        },
+        {
+          "label": "Units Sold",
+          "value": "2,346",
+          "trend": "up"
+        },
+        {
+          "label": "Customer Rating",
+          "value": "4.5",
+          "trend": "neutral"
+        },
+        {
+          "label": "Return Rate",
+          "value": "4.5%",
+          "trend": "down"
+        }
+      ],
+      "top_insight": "The SmartWatch Pro and Kurta Set Premium are the top-selling products, accounting for 55% of total revenue",
+      "risk": "The Rice Cooker Delux and Protein Powder have seen a decline in customer ratings, which may impact future sales",
+      "suggested_questions": [
+        "What are the primary factors driving the increase in sales revenue?",
+        "How can we improve customer satisfaction with the Rice Cooker Delux and Protein Powder products?",
+        "What strategies can be implemented to maintain the sales momentum of the SmartWatch Pro and Kurta Set Premium products?"
+      ]
+    },
+    "charts": []
+  },
+  "4c858bdb": {
+    "file_id": "4c858bdb",
+    "filename": "incident_reports (1).csv",
+    "chars": 2075,
+    "chunks": 1,
+    "rows": 21,
+    "summary": {
+      "headline": "Incident reports show high frequency of hazards and thefts in the area",
+      "key_metrics": [
+        {
+          "label": "Total Incidents",
+          "value": "20",
+          "trend": "neutral"
+        },
+        {
+          "label": "High Severity Incidents",
+          "value": "8",
+          "trend": "up"
+        },
+        {
+          "label": "Medium Severity Incidents",
+          "value": "8",
+          "trend": "neutral"
+        },
+        {
+          "label": "Low Severity Incidents",
+          "value": "4",
+          "trend": "down"
+        }
+      ],
+      "top_insight": "The area is prone to hazards such as landslides, pipe bursts, and gas leaks, which pose a significant risk to public safety",
+      "risk": "The high frequency of incidents, particularly those with high severity, poses a significant risk to public safety and requires immediate attention from authorities",
+      "suggested_questions": [
+        "What are the most common types of incidents reported in the area?",
+        "What are the underlying causes of the high frequency of hazards and thefts in the area?",
+        "What measures can be taken to mitigate the risks and improve public safety in the area?"
+      ]
+    },
+    "charts": [
+      {
+        "type": "bar",
+        "title": "Incident Reports by Type",
+        "labels": [
+          "hazard",
+          "harassment",
+          "theft",
+          "emergency",
+          "unsafe_area"
+        ],
+        "values": [
+          7,
+          4,
+          4,
+          3,
+          3
+        ],
+        "color": "6366f1"
+      },
+      {
+        "type": "pie",
+        "title": "Incident Severity Distribution",
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "values": [
+          5,
+          7,
+          8
+        ],
+        "color": "6366f1"
+      },
+      {
+        "type": "line",
+        "title": "Incident Reports by Severity",
+        "labels": [
+          "low",
+          "medium",
+          "high"
+        ],
+        "values": [
+          5,
+          7,
+          8
+        ],
+        "color": "6366f1"
+      }
+    ]
+  },
+  "30b28f1f": {
+    "file_id": "30b28f1f",
+    "filename": "MoGenAI_Test_Sales.csv",
+    "chars": 1815,
+    "chunks": 1,
+    "rows": 25,
+    "summary": {
+      "headline": "Sales revenue increased by 23% from January to May 2026",
+      "key_metrics": [
+        {
+          "label": "Total Revenue",
+          "value": "2,431,000",
+          "trend": "up"
+        },
+        {
+          "label": "Units Sold",
+          "value": "2,346",
+          "trend": "up"
+        },
+        {
+          "label": "Customer Rating",
+          "value": "4.5",
+          "trend": "neutral"
+        },
+        {
+          "label": "Return Rate",
+          "value": "4.5%",
+          "trend": "down"
+        }
+      ],
+      "top_insight": "The SmartWatch Pro and Kurta Set Premium are the top-selling products, accounting for 55% of total revenue",
+      "risk": "The Rice Cooker Delux has a high return rate, which may impact customer satisfaction and loyalty",
+      "suggested_questions": [
+        "What are the key factors driving the increase in sales revenue?",
+        "How can we improve the customer rating for the Rice Cooker Delux?",
+        "What marketing strategies can we implement to promote the Laptop Stand and Protein Powder products?"
+      ]
+    },
+    "charts": [
+      {
+        "type": "line",
+        "title": "Monthly Revenue of SmartWatch Pro",
+        "labels": [
+          "Jan 2026",
+          "Feb 2026",
+          "Mar 2026",
+          "Apr 2026",
+          "May 2026"
+        ],
+        "values": [
+          485000,
+          512000,
+          390000,
+          521000,
+          598000
+        ],
+        "color": "6366f1"
+      },
+      {
+        "type": "bar",
+        "title": "Total Units Sold by Product in May 2026",
+        "labels": [
+          "SmartWatch Pro",
+          "Kurta Set Premium",
+          "Rice Cooker Delux",
+          "Laptop Stand",
+          "Protein Powder"
+        ],
+        "values": [
+          153,
+          299,
+          268,
+          296,
+          184
+        ],
+        "color": "ff69b4"
+      },
+      {
+        "type": "pie",
+        "title": "Revenue Distribution by Category in Jan 2026",
+        "labels": [
+          "Electronics",
+          "Apparel",
+          "Appliances",
+          "Accessories",
+          "Health"
+        ],
+        "values": [
+          485000,
+          132000,
+          98000,
+          45000,
+          67000
+        ],
+        "color": "34a85a"
+      }
+    ]
+  },
+  "2ab75dc7": {
+    "file_id": "2ab75dc7",
+    "filename": "MoGenAI_Test_Sales.csv",
+    "chars": 1815,
+    "chunks": 1,
+    "rows": 25,
+    "summary": {
+      "headline": "Sales revenue increased by 23% from January to May 2026",
+      "key_metrics": [
+        {
+          "label": "Total Revenue",
+          "value": "3,433,000",
+          "trend": "up"
+        },
+        {
+          "label": "Units Sold",
+          "value": "2,346",
+          "trend": "up"
+        },
+        {
+          "label": "Average Customer Rating",
+          "value": "4.5",
+          "trend": "neutral"
+        },
+        {
+          "label": "Return Rate",
+          "value": "5.1%",
+          "trend": "down"
+        }
+      ],
+      "top_insight": "The SmartWatch Pro and Kurta Set Premium are the top-selling products, accounting for 55% of total revenue",
+      "risk": "The Protein Powder product has a declining customer rating, which may impact future sales",
+      "suggested_questions": [
+        "What are the key factors driving the increase in sales revenue?",
+        "How can we improve the customer rating for the Protein Powder product?",
+        "What are the opportunities for expanding sales in the South and East regions?"
+      ]
+    },
+    "charts": [
+      {
+        "type": "bar",
+        "title": "Revenue by Product",
+        "labels": [
+          "SmartWatch Pro",
+          "Kurta Set Premium",
+          "Rice Cooker Delux",
+          "Laptop Stand",
+          "Protein Powder"
+        ],
+        "values": [
+          485000,
+          132000,
+          98000,
+          45000,
+          67000
+        ],
+        "color": "6366f1"
+      },
+      {
+        "type": "line",
+        "title": "Monthly Revenue of SmartWatch Pro",
+        "labels": [
+          "Jan 2026",
+          "Feb 2026",
+          "Mar 2026",
+          "Apr 2026",
+          "May 2026"
+        ],
+        "values": [
+          485000,
+          512000,
+          390000,
+          521000,
+          598000
+        ],
+        "color": "ff69b4"
+      },
+      {
+        "type": "pie",
+        "title": "Revenue by Category",
+        "labels": [
+          "Electronics",
+          "Apparel",
+          "Appliances",
+          "Accessories",
+          "Health"
+        ],
+        "values": [
+          485000,
+          132000,
+          98000,
+          45000,
+          67000
+        ],
+        "color": "34a85a"
+      }
+    ]
+  }
+}

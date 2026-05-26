@@ -1,0 +1,16 @@
+Month,Product,Category,Revenue,Units_Sold,Returns,Customer_Rating,Region
+Jan 2026,SmartWatch Pro,Electronics,485000,124,8,4.5,North
+Jan 2026,Kurta Set,Apparel,132000,210,12,4.2,West
+Jan 2026,Rice Cooker,Appliances,98000,196,5,4.6,South
+Feb 2026,SmartWatch Pro,Electronics,512000,131,6,4.6,North
+Feb 2026,Kurta Set,Apparel,148000,237,9,4.3,West
+Feb 2026,Rice Cooker,Appliances,104000,208,4,4.7,South
+Mar 2026,SmartWatch Pro,Electronics,390000,100,15,3.9,North
+Mar 2026,Kurta Set,Apparel,121000,194,18,3.8,West
+Mar 2026,Rice Cooker,Appliances,88000,176,11,4.1,South
+Apr 2026,SmartWatch Pro,Electronics,521000,133,5,4.7,North
+Apr 2026,Kurta Set,Apparel,165000,264,7,4.5,West
+Apr 2026,Rice Cooker,Appliances,118000,236,3,4.8,South
+May 2026,SmartWatch Pro,Electronics,598000,153,4,4.8,North
+May 2026,Kurta Set,Apparel,187000,299,6,4.6,West
+May 2026,Rice Cooker,Appliances,134000,268,3,4.9,South
