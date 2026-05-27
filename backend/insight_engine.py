@@ -95,17 +95,20 @@ def _increment(provider: str):
 # ── Provider implementations ───────────────────────────────────────────────────
  
 def _call_gemini(system: str, user: str, max_tokens: int = 800) -> str:
-    import google.generativeai as genai # type: ignore
+    from google import genai
+    from google.genai import types # type: ignore
     key = os.getenv("GEMINI_API_KEY", "")
     if not key:
         raise ValueError("GEMINI_API_KEY not set")
-    genai.configure(api_key=key)
-    model = genai.GenerativeModel(
-        model_name="gemini-2.0-flash",
-        system_instruction=system,
-        generation_config={"max_output_tokens": max_tokens, "temperature": 0.2},
+    client = genai.Client(api_key=key)
+    resp = client.models.generate_content(
+        model="gemini-2.0-flash",
+        contents=f"{system}\n\n{user}",
+        config=types.GenerateContentConfig(
+            max_output_tokens=max_tokens,
+            temperature=0.2,
+        ),
     )
-    resp = model.generate_content(user)
     return resp.text.strip()
  
  
@@ -134,7 +137,7 @@ def _call_cerebras(system: str, user: str, max_tokens: int = 800) -> str:
         raise ValueError("CEREBRAS_API_KEY not set")
     client = Cerebras(api_key=key)
     resp = client.chat.completions.create(
-        model="llama-3.3-70b",
+        model="llama3.1-8b",
         max_completion_tokens=max_tokens,
         temperature=0.2,
         messages=[
