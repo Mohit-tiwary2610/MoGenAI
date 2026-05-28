@@ -1,8 +1,8 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
-from pydantic import BaseModel
-import uvicorn, uuid, json, asyncio
+from fastapi import FastAPI, UploadFile, File, HTTPException # type: ignore
+from fastapi.middleware.cors import CORSMiddleware # type: ignore
+from fastapi.responses import StreamingResponse # type: ignore
+from pydantic import BaseModel # type: ignore
+import uvicorn, uuid, json, asyncio # type: ignore
 
 from parser_module import parse_file
 from chunker import chunk_text
