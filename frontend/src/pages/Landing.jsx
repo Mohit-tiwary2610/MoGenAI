@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react'
 import { Upload, Zap, Brain, BarChart3, MessageSquare, Shield, ArrowRight, FileText, Database, Sparkles, Sun, Moon } from 'lucide-react'
-import axios from 'axios'
+import { api } from '../api'
 import './Landing.css'
  
 const FEATURES = [
@@ -26,7 +26,7 @@ export default function Landing({ onFileUploaded, theme, onThemeToggle }) {
     fd.append('file', file)
     try {
       setProgress(30)
-      const res = await axios.post('/api/upload', fd, {
+      const res = await api.post('/api/upload', fd, {
         headers: { 'Content-Type': 'multipart/form-data' },
         onUploadProgress: e => setProgress(30 + Math.round((e.loaded / e.total) * 40)),
       })
