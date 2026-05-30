@@ -18,6 +18,8 @@ import {
   XCircle,
   Sun,
   Moon,
+  Menu,
+  X,
 } from "lucide-react";
 import {
   BarChart,
@@ -253,6 +255,7 @@ export default function Dashboard({ fileMeta, onBack, theme, onThemeToggle }) {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const [provStatus, setProvStatus] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const summary = fileMeta?.summary || {};
   const charts = fileMeta?.charts || [];
@@ -271,10 +274,20 @@ export default function Dashboard({ fileMeta, onBack, theme, onThemeToggle }) {
     return () => clearInterval(id);
   }, []);
 
+  // Close sidebar on resize to desktop
+  useEffect(() => {
+    const handler = () => {
+      if (window.innerWidth > 900) setSidebarOpen(false);
+    };
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, []);
+
   const handleAsk = async (q) => {
     const text = (q || question).trim();
     if (!text || loading) return;
     setQuestion("");
+    setSidebarOpen(false);
     setMessages((prev) => [...prev, { role: "user", text }]);
     setLoading(true);
     try {
@@ -309,7 +322,13 @@ export default function Dashboard({ fileMeta, onBack, theme, onThemeToggle }) {
 
   return (
     <div className="dashboard">
-      <aside className="sidebar">
+      {/* Sidebar overlay for mobile */}
+      <div
+        className={`sidebar-overlay ${sidebarOpen ? "open" : ""}`}
+        onClick={() => setSidebarOpen(false)}
+      />
+
+      <aside className={`sidebar ${sidebarOpen ? "open" : ""}`}>
         <div className="sidebar-logo">
           <div className="sidebar-logo-icon">
             <Zap size={14} />
@@ -365,6 +384,15 @@ export default function Dashboard({ fileMeta, onBack, theme, onThemeToggle }) {
           </button>
         ))}
       </aside>
+
+      {/* Mobile sidebar toggle */}
+      <button
+        className="sidebar-toggle"
+        onClick={() => setSidebarOpen((prev) => !prev)}
+        aria-label="Toggle sidebar"
+      >
+        {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
+      </button>
 
       <main className="main-content">
         <ProviderBar status={provStatus} />
